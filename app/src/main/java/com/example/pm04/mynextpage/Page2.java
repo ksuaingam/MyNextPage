@@ -19,7 +19,7 @@ public class Page2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 finish();
-
+                overridePendingTransition(R.animator.right_to_center, R.animator.center_to_right);
             }
         });
     }
